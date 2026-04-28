@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -6,8 +8,9 @@ import Benefits from "./components/Benefits";
 import Process from "./components/Process";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import ResumePage from "./components/ResumePage";
 
-export default function App() {
+function HomePage() {
   return (
     <>
       <Header />
@@ -21,5 +24,16 @@ export default function App() {
       </main>
       <Footer />
     </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
