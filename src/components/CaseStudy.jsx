@@ -73,7 +73,7 @@ export default function CaseStudy() {
             <div className="case-actions">
               <a
                 className="btn btn--primary"
-                href="https://karakatizza.vercel.app/"
+                href="https://karakatizza.com/"
                 target="_blank"
                 rel="noreferrer"
               >

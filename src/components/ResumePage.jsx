@@ -107,7 +107,7 @@ export default function ResumePage() {
 
                 <a
                   className="btn btn--ghost"
-                  href="https://karakatizza.vercel.app/"
+                  href="https://karakatizza.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -224,7 +224,7 @@ export default function ResumePage() {
 
                 <div className="resume-project__links">
                   <a
-                    href="https://karakatizza.vercel.app/"
+                    href="https://karakatizza.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
